@@ -7,7 +7,15 @@ var pc = {
     gpu : 3050
 }
 
-// console.log(pc.gpu);
+
+pc.gpu = "1650"; 
+console.log(pc.gpu);
+
+console.log();
+
+console.log(pc.gpu);
+// console.log(pc[gpu]);
+// console.log(pc["gpu"]);
 
 // var all = Object.keys(pc);
 // console.log(all);
@@ -36,3 +44,4 @@ for(var Name in pc){
     var value = pc[Name]
     console.log(Name,value)
 }
+
